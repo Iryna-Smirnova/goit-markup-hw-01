@@ -2,11 +2,12 @@
     --primary-text-color: #212121;
     --secondary-text-color: #757575;
     --accent-color: #2196F3;
-    --title-white-color: #FFFFFF;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
     }
 
 body{
-    background: #FFFFFF;
+    background: var(--white-color);
     font-family: Roboto;
 }
     
@@ -23,7 +24,7 @@ ul{
 .logo-text-sub{
     font-weight: 700;
     font-size: 26px;
-    color: #000000;
+    color: var(--black-color);
 }
 
 a{
@@ -39,11 +40,11 @@ a{
     color: var(--accent-color);
 }
 
-.comunication .link{
+.contact-data .link{
     color :var(--secondary-text-color); 
 }
 
-.comunication .link:hover{
+.contact-data .link:hover{
     color: var(--accent-color);
 }
 
@@ -54,12 +55,12 @@ a{
     font-weight: 900;
     font-size: 44;
     line-height: 60;
-    color: var(--title-white-color);  */
+    color: var(--white-color);  */
 }
 
 .button{
-    color: var(--title-white-color);
-    background-color: #2196F3;
+    color: var(--white-color);
+    background-color: var(--accent-color);
 }
 
 /* section */
